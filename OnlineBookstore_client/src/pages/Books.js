@@ -1,6 +1,6 @@
 /**
  * Books.js - Online Bookstore Books Page Component
- * Author: [Your Name]
+ * Author: Prajakta
  * Description: Main books listing page with fallback functionality and database seeding
  */
 
