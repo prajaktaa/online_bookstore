@@ -34,6 +34,12 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/books', require('./routes/books'));
 app.use('/api/orders', require('./routes/orders'));
 
+// Admin routes
+app.use('/api/admin/dashboard', require('./routes/admin/dashboard'));
+app.use('/api/admin/books', require('./routes/admin/books'));
+app.use('/api/admin/categories', require('./routes/admin/categories'));
+app.use('/api/admin/orders', require('./routes/admin/orders'));
+
 // Root route
 app.get('/', (req, res) => {
   res.send('Bookstore API running');
