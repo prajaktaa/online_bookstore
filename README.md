@@ -494,10 +494,6 @@ The application features a robust authentication system with:
 4. Push to the branch
 5. Create a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
 ## 📞 Support
 
 For questions or support, please open an issue in the repository or contact the development team.
